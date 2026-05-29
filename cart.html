@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Обнимаш</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Gabriela&family=Kablammo&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="section main2">
+    <header class="head">
+            <div class="logo1">
+                <img src="логотип.png">
+            </div>
+            <div class="logo2">ОБНИМАШ</div>
+             <div class="icon1">
+                <img src="черныйчеловек.png">
+            </div>
+            <div class="contact">+7 (812) 233-00-61</div>
+             <div class="icon2">
+                <img src="телефон.png">
+            </div>
+            <a href="authorization.html">
+                <button class="registration">Регистрация</button>
+            </a>
+    </header>
+
+    <header class="navigation" align = "center">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="index.html#about">О нас</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="index.html#reviews">Отзывы</a></li> 
+            <li><a href="index.html#sale">Акции</a></li>
+        </ul>
+    </header>
+
+<div class="cart" id="cartContainer">
+    <div class="cart-header">
+        <h1>🛒 Корзина</h1>
+    </div>
+    
+    <div class="cart-table-header">
+        <div>Товар</div>
+        <div>Цена</div>
+        <div>Количество</div>
+        <div>Сумма</div>
+    </div>
+    
+    <div id="cartItemsList">
+    <!-- Товары будут добавляться сюда -->
+    </div>
+    
+    <div class="cart-footer" id="cartFooter">
+        <span class="total-label">Итого:</span>
+        <span class="total-price" id="totalPrice">0 ₽</span>
+       <button class="checkout-btn" onclick="checkout()">Перейти к оформлению</button>
+    </div>
+</div>
+
+<footer class="footer-cart">
+    <div class="footer-content">
+
+        <div class="footer-contacts">
+            <h4>КОНТАКТЫ</h4>
+            <p>© г. Санкт-Петербург,<br>Невский просп., 18</p>
+            <p>info@binimash@mail.ru</p>
+            <p>+7 (812) 233-00-61</p>
+        </div>
+
+        <div class="footer-nav">
+            <a href="index.html">ГЛАВНАЯ</a>
+            <a href="index.html#about">О НАС</a>
+            <a href="index.html#sale">АКЦИИ</a>
+            <a href="catalog.html">КАТАЛОГ</a>
+            <a href="index.html#reviews">ОТЗЫВЫ</a>
+        </div>
+    </div>
+</footer>
+<script src="cartandcatalog.js"></script>
+</body>
+</html>
